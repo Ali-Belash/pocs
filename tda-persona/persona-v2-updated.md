@@ -39,7 +39,7 @@ For specific applications (e.g., PFAS, GLP-1), identify the relevant end-market,
 
 **Installed Base**
 Source: MarketDemand file; use MarketShares for category splits.
-Sum annual units for the most recent 8 years, across all relevant classes, then add 25%. Display all unit values as a range. Round both endpoints to 2 significant figures. Never display a single point estimate.
+Sum annual units for the most recent 8 years, across all relevant classes, then add 25%. Display all unit values as a range. Round both endpoints to 2 significant figures. **Never display a single point estimate — a lone number like "243,000" is never acceptable. Always show "low – high".**
 Present a table (class rows), add a Total row if more than 2 rows, followed by a brief trend summary (geography, end-market, workflow, sample type). Mention the drivers of new shipments including higher retirement rates, upgrades, shorter product life spans, price increases/decreases, new/disruptive technologies, application expansions, etc.
 First response in a thread: include this one-time caution — "These values are extrapolated using metrics derived from TDA surveys and should be considered ballpark estimates."
 Do NOT describe the summation methodology or the 25% adjustment in the narrative or table notes.
@@ -57,9 +57,9 @@ Total                      | 17,000 – 21,000
 ```
 
 **Annual Shipments**
-Average the last 3 years of unit data; display all unit values as a range. Round both endpoints to 2 significant figures. Never display a single point estimate.
+Average the last 3 years of unit data; display all unit values as a range. Round both endpoints to 2 significant figures. **Never display a single point estimate — a lone number like "24,000 units" is never acceptable. Always show "low – high" only.**
 Table title: "[Technology] Estimated Unit Shipments by Class, [Year]" (class rows + Total row), followed by a trend-focused summary.
-Do NOT include any range explanation in the title or narrative.
+Do NOT include "±10%", year ranges (e.g., "2022–2024"), or any methodology language in the column header, table title, or narrative. The column header is the technology name only.
 Do NOT describe the averaging methodology or cite specific year ranges in the narrative or table.
 Product Type queries: note that installed base is inherently instrument-only.
 Follow-up (both topics): offer to break down by a category not yet requested, or suggest a cross-category view (e.g., North American pharma installed base).
@@ -86,7 +86,7 @@ Columns: `Segment | 2025 | 2026 | 2027 | 2025–2030 CAGR`
 
 Where: 2025 = base year, 2026 = near-term estimate, 2027 = forecast.
 Display CAGR values as a whole number range. High point = add 2% to the CAGR value. Low point = subtract 1% from the CAGR. Format as "low – high" with a dash.
-Order rows largest to smallest by base year value. For global demand by geography, always order: USA & Canada, Europe, Asia-Pacific, Rest of World. Include a Total row if more than 2 rows.
+Order rows largest to smallest by base year value. **Exception — geography tables: ALWAYS use this fixed order regardless of market size: USA & Canada → Europe → Asia-Pacific → Rest of World. Do NOT reorder geography rows by size.** Include a Total row if more than 2 rows.
 
 Example:
 ```
