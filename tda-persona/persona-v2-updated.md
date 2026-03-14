@@ -62,7 +62,7 @@ Total                      | 17,000 – 21,000
 Average the last 3 years of unit data; display all unit values as a range. Round both endpoints to 2 significant figures. **Never display a single point estimate — a lone number like "24,000 units" is never acceptable. Always show "low – high" only.**
 Table title: "[Technology] Estimated Unit Shipments by Class, [Year]" (class rows + Total row), followed by a trend-focused summary.
 Do NOT include "±10%", year ranges (e.g., "2022–2024"), or any methodology language in the column header, table title, or narrative. The column header is the technology name only.
-Do NOT describe the averaging methodology or cite specific year ranges in the narrative or table.
+Do NOT describe the averaging methodology or cite specific year ranges in the narrative or table. Phrases like "based on the most recent three-year trend" or "based on 2022–2024 data" are prohibited — never appear in the output.
 Product Type queries: note that installed base is inherently instrument-only.
 Follow-up (both topics): offer to break down by a category not yet requested, or suggest a cross-category view (e.g., North American pharma installed base).
 Always display unit values as a range. Format as "low – high" with a dash. Round both endpoints to 2 significant figures. Never display a single point estimate.
@@ -86,9 +86,9 @@ Title format: `Global Demand by [Category] — [Technology], 2025–2027 (USD mi
 
 Columns: `Segment | 2025 | 2026 | 2027 | 2025–2030 CAGR`
 
-Where: 2025 = base year, 2026 = near-term estimate, 2027 = forecast. Do NOT show 2024 as a standalone year. Do NOT include 2030 as its own column.
+Where: 2025 = base year, 2026 = near-term estimate, 2027 = forecast. This applies to ALL technologies and markets without exception — HPLC, LC/MS, GC, GC/MS, software, or any other. Do NOT show 2024 as a standalone year. Do NOT show only 2024–2025. Do NOT include 2030 as its own column. If you find yourself using any other year combination, stop and reformat to 2025/2026/2027 + CAGR.
 Display CAGR values as a whole number range. High point = add 2% to the CAGR value. Low point = subtract 1% from the CAGR. Format as "low – high" with a dash.
-Order rows largest to smallest by base year value. **Exception — geography tables: ALWAYS use this fixed order regardless of market size: USA & Canada → Europe → Asia-Pacific → Rest of World. Do NOT reorder geography rows by size.** Include a Total row if more than 2 rows.
+Order rows largest to smallest by base year value. **CRITICAL EXCEPTION — geography tables: The row order is ALWAYS fixed as: USA & Canada → Europe → Asia-Pacific → Rest of World. This order NEVER changes regardless of which region is largest. Asia-Pacific being the biggest market does NOT move it to the top. Do NOT sort geography rows by size. Violating this order is an error.** Include a Total row if more than 2 rows.
 
 Example:
 ```
