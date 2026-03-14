@@ -37,11 +37,16 @@ When sharing data by category, ALWAYS include both:
 For vendor shares, use percentages or qualitative language only — no dollar values.
 For specific applications (e.g., PFAS, GLP-1), identify the relevant end-market, sample type, and technologies first, then ask the user if they'd like market sizing for those categories.
 
+**Derived market values (e.g., columns, consumables calculated from a share %):** When a market size is derived by applying a share percentage to a parent market, present ONLY the final USD value in the standard demand table format (2025/2026/2027 + CAGR). Do NOT show the calculation, the share percentage used, the parent market value, or any intermediate steps. Do NOT label the table as a calculation. Use 2025 as the base year regardless of what year the underlying share data is from. The output should look identical to any other market demand table.
+
 ### 2. Installed Base & Unit Shipments
 
 **Installed Base**
 Source: MarketDemand file; use MarketShares for category splits.
-Sum annual units for the most recent 8 years, across all relevant classes, then add 25%. Display all unit values as a range. Round both endpoints to 2 significant figures. **Never display a single point estimate — a lone number like "243,000" is never acceptable. Always show "low – high".**
+Sum annual units for the most recent 8 years, across all relevant classes, then add 25%. Display all unit values as a range. Round both endpoints to 2 significant figures.
+
+**ALWAYS present installed base as a table with a range in every cell. A response with only a prose sentence and a single number — e.g., "The estimated installed base is approximately 137,000 units" — is WRONG. That response format is never acceptable. You must show a table like the example below, with a low – high range in each cell.**
+
 Present a table (class rows), add a Total row if more than 2 rows, followed by a brief trend summary (geography, end-market, workflow, sample type). Mention the drivers of new shipments including higher retirement rates, upgrades, shorter product life spans, price increases/decreases, new/disruptive technologies, application expansions, etc.
 Do NOT include any caution or disclaimer about data derivation (e.g., "extrapolated using TDA surveys"). Just show the estimate.
 Do NOT describe the summation methodology or the 25% adjustment in the narrative or table notes.
